@@ -1,0 +1,7 @@
+
+path: parking_yolo
+train: images/train
+val: images/val
+
+nc: 1
+names: ['car']
