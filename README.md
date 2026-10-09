@@ -1,6 +1,6 @@
 # Sensor-Free Smart Parking with Computer Vision
 
-A computer vision system that detects parking occupancy from aerial imagery — no per-spot sensors required. It uses a YOLOv8 object detector to find vehicles in top-down parking-lot images, then maps detections onto known parking-slot regions to infer which spots are occupied or vacant. It also recommends the **closest vacant spot** to a given entry point, giving the system its "triage" capability.
+A computer vision system that detects parking occupancy from aerial imagery , no per-spot sensors required. It uses a YOLOv8 object detector to find vehicles in top-down parking-lot images, then maps detections onto known parking-slot regions to infer which spots are occupied or vacant. It also recommends the **closest vacant spot** to a given entry point, giving the system its "triage" capability.
 
 This was a group project for **SYS 5185** at the University of Ottawa (3-person team).
 
