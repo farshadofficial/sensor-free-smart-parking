@@ -29,9 +29,9 @@ Full training curves are in [`results/results.png`](results/results.png) and raw
 
 ## How it works
 
-1. **Vehicle detection** — YOLOv8 detects cars in an aerial parking-lot image in a single forward pass.
-2. **Occupancy estimation** — Because an *empty* space isn't an object, occupancy is inferred by spatial mapping: each parking slot is a region, and a slot is marked occupied when a detected vehicle's box falls inside it. Occupancy rate = occupied slots / total slots.
-3. **Closest-vacancy triage** — Given an entry point, the system returns the nearest vacant slot (Euclidean distance) to guide a driver to an open spot.
+1. **Vehicle detection** : YOLOv8 detects cars in an aerial parking-lot image in a single forward pass.
+2. **Occupancy estimation** : Because an *empty* space isn't an object, occupancy is inferred by spatial mapping: each parking slot is a region, and a slot is marked occupied when a detected vehicle's box falls inside it. Occupancy rate = occupied slots / total slots.
+3. **Closest-vacancy triage** : Given an entry point, the system returns the nearest vacant slot (Euclidean distance) to guide a driver to an open spot.
 
 ## Repository structure
 
